@@ -1,4 +1,4 @@
-## PROJETO BACXK END DO PETBUSCA
+## PROJETO BACK END DO PETBUSCA
 
 - Ligane kotlin
 - Banco de dados postgresql
