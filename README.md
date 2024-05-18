@@ -2,5 +2,5 @@
 
 - Linguagem utlizada kotlin
 - Banco de dados postgresql
-- Servicço de email
-- Mavem respotirio
+- Servicço de e-mail
+- Mavem repositório
