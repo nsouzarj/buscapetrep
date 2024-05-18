@@ -1,6 +1,6 @@
 ## PROJETO BACK END DO BUSCAPET
 
-- Ligane kotlin
+- Linguame utlizada kotlin
 - Banco de dados postgresql
 - Servicço de email
 - Mavem respotirio
