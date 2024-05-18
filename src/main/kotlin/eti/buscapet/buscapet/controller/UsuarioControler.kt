@@ -23,7 +23,15 @@ class UsuarioController {
     val dtosConv: DtosConv = DtosConv();
     @PostMapping("/caduser")
     fun criarUsuario(@RequestBody usuarioDTO: UsuarioDTO): ResponseEntity<Usuario> {
+        // Verifique se o email já existe na base de dados
+        val usuarioExistente = usuarioDTO.emailUser?.let { usuarioService.buscaUsuarioPorEmail(it) }
 
+        // Se o email já existir, retorne um erro (409 CONFLICT)
+        if (usuarioExistente != null) {
+            return ResponseEntity.status(HttpStatus.CONFLICT).body(null)
+        }
+
+        // Se o email não existir, crie o usuário e retorne um status 201 (CREATED)
         val novoUsuario = usuarioService.criarUsuario(usuarioDTO)
         return ResponseEntity.status(HttpStatus.CREATED).body(novoUsuario)
     }
@@ -101,7 +109,6 @@ class UsuarioController {
                 usuario.id?.let { usuarioService.atualizarUsuario(it, userDto) }
                 emailService.sendSimpleMessage(userDto.emailUser,"Código de Seguraça","Código de recuperação de senha:  "+userDto.codrecover);
                 teste=true;
-
             } else {
                 teste = false;
             }
@@ -131,22 +138,10 @@ class UsuarioController {
         return teste;
     }
 
-
     private fun gerarHashSHA256(senha: String): String {
         val digest = MessageDigest.getInstance("SHA-256")
         val hashBytes = digest.digest(senha.toByteArray(Charsets.UTF_8))
         return hashBytes.joinToString("") { "%02x".format(it) }
     }
-
-    /**
-     * Verifica o codigo de seguaraca
-     */
-    private fun verifcaUSaurioseJaCadastrado(){
-
-
-
-    }
-
-
 
 }
