@@ -99,7 +99,7 @@ class UsuarioController {
     @GetMapping("/gerarcodigo/{email}")
     fun gerarCodigo(@PathVariable email: String):Boolean {
         var teste:Boolean=false;
-        val usuario = usuarioService.buscaUsuarioPorEmail(email)
+         val usuario = usuarioService.buscaUsuarioPorEmail(email)
 
         if (usuario?.emailUser?.isNotEmpty() == true) {
             var codigo = usuarioService.gerarCodigo();

@@ -86,7 +86,7 @@ class CadastroPetController {
     @Throws(IOException::class)
     fun uploadFiles(@RequestParam("files") files: List<MultipartFile>): String {
         // Obtenha o diretório de destino
-        val uploadDir = File("/home/nelson/imagespet")
+        val uploadDir = File("/app/imagespet")
         uploadDir.mkdirs() // Cria o diretório se não existir
 
         // Itera sobre cada arquivo e salva
@@ -104,7 +104,7 @@ class CadastroPetController {
     @Throws(IOException::class)
     fun getImage(@PathVariable nome: String): ResponseEntity<Any?> {
         // Obtenha o caminho da imagem
-        val imageFile = File("/home/nelson/imagespet/$nome")
+        val imageFile = File("/app/imagespet/$nome")
 
         // Leia o conteúdo da imagem
         val imageBytes = Files.readAllBytes(imageFile.toPath())
