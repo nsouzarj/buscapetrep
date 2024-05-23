@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y maven
 
 # Copy the pom.xml and run Maven to install dependencies
 COPY pom.xml ./
-RUN mvn dependency:go-offline
+RUN mvn dependency:go-offline -Dmaven.test.skip=true
+
 
 # Copy the source code (excluding the target directory)
 COPY src ./src
