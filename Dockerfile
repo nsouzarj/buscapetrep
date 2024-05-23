@@ -18,8 +18,9 @@ RUN mvn package
 
 # Expose the port your application uses
 EXPOSE 8080
+EXPOSE 8888
 
 # Mapeia o volume de imagens
-VOLUME /app/imagespet
+#VOLUME /app/imagespet
 # Run the Spring Boot application as a JAR
 CMD ["java", "-jar", "target/buscapet-0.0.1-SNAPSHOT.jar"]
