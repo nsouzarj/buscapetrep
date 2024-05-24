@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sunlit-wall-423611-a2",
+  "private_key_id": "bbd4aa7ae794ba5ace5888f111cf06fa88d021b6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC2xtaNo1B04dwR\nriSChXIM97l+nsPn9wG3LKAY+qinpzOsSYHV69R/pFvbP6venCkS3z4aGNO3YeNh\nowfILMgEJ4oYClo+XpSuNkSmMMtAXw2KKgebYGrljgKokNnwTYH2SERjl9bglm3C\nfQ0NJmPoMh2NyCVK3xLJChapDyXIOG01mgsRwLEU/LLBCBnI0T48iAMD9vvD8e97\nz5eMjcL6tHhTodr04nLwpWzhvRJkRVYtTChJIdrIKVJOMrg7T4n8Xk6vJaxDZt2b\nHGftLNos7AwlTJrn8xWNPzrMkZyOP/cJOfnqPaEhA8btNGdzmnU+eZa5k4kIDvPR\nkTDApuNtAgMBAAECggEAAJ66QYRXNlm8AOkkLP7TKTcQ0zF01eWGJ13wXrNGv5jB\nMdjHx7w5OaZAcMCYzch0ct2/pTZJILFd24kmIg6Mma/kKXtyt7Oq0b43iV2adll4\nGtppN3xf/yfbZee5JRPc1mn3qNHIyxubb90EKm2wsidyENAmad0u32pnPyvQiTBI\n5qlZQxjExqJQrah2riexo3If/VZ0PwNNvGReEZsrmVR4yK6X8B6JrHxOwP+6Hc/K\nLiWfdxXVYs+4/lXYugpm6W/uj1ssKoAUSYHMHlvMkULl8B8kjk3xHEKwTo3sOhzp\ncHLx26jZaEgnu47zWBwMr39RkJBtPhEa5MLTntcfaQKBgQDogXWW8E1EuYTTE7Zd\nexxYFecdHU36rsrNIAWxEQDT7c42XsKjVPV4VEba+Oues980aNm2cSrIAvTRuHU4\nXXPHnSAaflHu+e+2oTefLb/N3u0igvvC38U8WR8+VShfP3VD4S9FtqqWfm/2z76f\nvNvDGGaGbjHifb0xX0/+sIzuCQKBgQDJPviyoOxjyUjFeKEBsRZrAfq9/WS1WYCY\n6voneo8TA6H+gr2a/1Hz8w3ezpcPu3Wjth6NENB1K4XajkCQgy1jqn2xeO+oX9ur\ntrjLs4s7l/qLuWZkAYbz+HHyKGc4wSHHRgwat+Q2OIcW8naKrPc8C+StkzE+H42i\n0FtOvQOjRQKBgQDXeDpAclw5R3BXqNoFkfT3kPzI14KPwfMB3B5KNQa+YJENhA3/\nDdoa9IdhoPPC9NDyogS5dfD+wPafcMF5RenpYK0CwHQv8wJ7DrccVmp9YI4EwLyO\noZAI2FMDEipC8u06xfJoOduncm9SnL39DSngiLli9bZXPs3ZdooM7xL7+QKBgQCq\ncMPO/c3XYXVZkaXDOglDjcSgPkiZ8vigCnrdDsa4Et6TIIWXDWCKXLLFnnCAKYMj\nqS3MyY3Tfo36IXp7Ki459/5GXaeUEcOJddKi6ygjy76tsdMPJd/3JtbSgfeSMLf7\n/s5nnpEQfuWiwK03G/C0kVoWy8/rzmt1lkOOtzSqhQKBgQDLyWUFBYkx1LOjEk1x\nf9bDMRkownVrQMJPZVxflXxiiiYxlXvSaxuih/wuzKBAbEzvsixJr8HaqMws3Oan\nlMulS/FuiOI/Si77hVFwXi3b7Dy4yuOv/bemAlYKVdnBzFqgeZown0MtYbtAwHiB\nXYPmd7YorsQW1eKqKjv9hOHApw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "nelonrjbrazil@sunlit-wall-423611-a2.iam.gserviceaccount.com",
+  "client_id": "114579430740436596341",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nelonrjbrazil%40sunlit-wall-423611-a2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+}
