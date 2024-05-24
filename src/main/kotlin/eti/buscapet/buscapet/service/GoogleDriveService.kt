@@ -10,6 +10,7 @@ import com.google.api.services.drive.Drive
 import com.google.api.services.drive.DriveScopes
 import com.google.api.services.drive.model.File
 import org.springframework.beans.factory.annotation.Value
+import org.springframework.context.annotation.PropertySource
 import org.springframework.stereotype.Service
 import org.springframework.web.multipart.MultipartFile
 import java.io.ByteArrayInputStream
@@ -19,6 +20,7 @@ import java.io.IOException
 
 
 @Service
+@PropertySource("classpath:contafile.json")
 class GoogleDriveService {
 
     @Value("\${google.drive.service.account.file}")
