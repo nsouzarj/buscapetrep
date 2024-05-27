@@ -20,7 +20,7 @@ import java.io.IOException
 
 
 @Service
-@PropertySource("classpath:contafile.json")
+
 class GoogleDriveService {
 
     @Value("\${google.drive.service.account.file}")

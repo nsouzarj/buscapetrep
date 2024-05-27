@@ -17,11 +17,12 @@ COPY src ./src
 # Build the application using Maven
 RUN mvn package
 
-# Expose the port your application uses
-EXPOSE 8080
-EXPOSE 8888
 
+# Expose the port your application uses
+EXPOSE 8084
+EXPOSE 8888
+#ENV JAVA_OPTS="-XX:PermSize=2024m -XX:MaxPermSize=512m"
 # Mapeia o volume de imagens
-#VOLUME /app/imagespet
+VOLUME /buscapet
 # Run the Spring Boot application as a JAR
-CMD ["java", "-jar", "target/buscapet-0.0.1-SNAPSHOT.jar"]
+CMD ["java",  "-jar", "target/buscapet-0.0.1-SNAPSHOT.jar"]

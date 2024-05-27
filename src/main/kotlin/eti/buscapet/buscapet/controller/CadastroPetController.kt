@@ -126,7 +126,7 @@ class CadastroPetController {
     fun uploadFiles(@RequestParam("files") files: List<MultipartFile>): String {
         val response = StringBuilder()
         //Autetica no google dirve
-        //googleDriveService.getDriveService();
+        googleDriveService.getDriveService();
         for (file in files) {
             val uploadResult = googleDriveService.uploadFile(file)
             response.append(uploadResult).append("<br>")
